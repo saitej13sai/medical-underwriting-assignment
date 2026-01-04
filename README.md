@@ -39,7 +39,7 @@ The focus is on **correctness, explainability, configurability, and underwriting
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **PDF Handling**
    - Extract embedded text using `pdfplumber`
