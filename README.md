@@ -195,16 +195,7 @@ medical-underwriting-engine/
 └── README.md
 ```
 
----
 
-##  Status
-
-* Deterministic
-* Explainable
-* Underwriting-safe
-* Submission-ready
-
-````
 
 ---
 
