@@ -122,7 +122,7 @@ output/result.json
     "method": "pdf_text"
   },
   "patient": {
-    "name": "Lyubochka Svetka Lab Id",
+    "name": "Lyubochka Svetka ",
     "age": 41,
     "gender": "male"
   },
