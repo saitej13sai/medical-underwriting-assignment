@@ -7,7 +7,7 @@ The focus is on **correctness, explainability, configurability, and underwriting
 
 ---
 
-## 🔍 What This Engine Extracts
+##  What This Engine Extracts
 
 ### Patient
 - Name (only when explicitly labeled; otherwise `null`)
@@ -60,7 +60,7 @@ The focus is on **correctness, explainability, configurability, and underwriting
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Python Dependencies
 ```bash
@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Image Input
 
@@ -103,7 +103,7 @@ python .\main.py --input "C:\Users\sai13\Downloads\sterling-accuris-pathology-sa
 
 ---
 
-## 📤 Output
+## Output
 
 The engine writes structured underwriting output to:
 
@@ -113,7 +113,7 @@ output/result.json
 
 ---
 
-## 🧪 Tested Example Output
+## Tested Example Output
 
 ```json
 {
@@ -179,7 +179,7 @@ output/result.json
 
 ---
 
-## 🧠 Design Decisions
+## Design Decisions
 
 * Ambiguous or unlabeled fields are returned as `null`
 * Explicit diagnoses always override lab-only risk
@@ -188,7 +188,7 @@ output/result.json
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 medical-underwriting-engine/
@@ -204,7 +204,7 @@ medical-underwriting-engine/
 
 ---
 
-## ✅ Status
+##  Status
 
 * Deterministic
 * Explainable
@@ -215,7 +215,7 @@ medical-underwriting-engine/
 
 ---
 
-### ✅ After Pasting
+### After Pasting
 
 Run:
 
