@@ -1,11 +1,3 @@
-Perfect 👍
-Below is **ONE COMPLETE `README.md` FILE**.
-You can **copy-paste this exactly** into your `README.md` in VS Code or GitHub.
-No extra text, no explanations outside — **just the README content**.
-
----
-
-````markdown
 # Medical Underwriting Engine (Deterministic)
 
 A **deterministic medical data extraction and underwriting rules engine**.  
@@ -130,7 +122,7 @@ output/result.json
     "method": "pdf_text"
   },
   "patient": {
-    "name": null,
+    "name": "Lyubochka Svetka Lab Id",
     "age": 41,
     "gender": "male"
   },
@@ -160,25 +152,25 @@ output/result.json
         "parameter": "hemoglobin",
         "value": 14.5,
         "risk": "Normal",
-        "explanation": "hemoglobin = 14.5 falls in 13.5–18.0 → Normal"
+        "explanation": "hemoglobin = 14.5 falls in 13.5\u201318.0 \u2192 Normal"
       },
       {
         "parameter": "hba1c",
         "value": 7.1,
         "risk": "Diabetes",
-        "explanation": "hba1c = 7.1 falls in 6.5–99.0 → Diabetes"
+        "explanation": "hba1c = 7.1 falls in 6.5\u201399.0 \u2192 Diabetes"
       },
       {
         "parameter": "fbs",
         "value": 141.0,
         "risk": "High",
-        "explanation": "fbs = 141.0 falls in 126.0–999.0 → High"
+        "explanation": "fbs = 141.0 falls in 126.0\u2013999.0 \u2192 High"
       },
       {
         "parameter": "creatinine",
         "value": 0.83,
         "risk": "Normal",
-        "explanation": "creatinine = 0.83 falls in 0.0–1.25 → Normal"
+        "explanation": "creatinine = 0.83 falls in 0.0\u20131.25 \u2192 Normal"
       }
     ]
   }
@@ -233,10 +225,3 @@ git commit -m "Update README with usage and sample output"
 git push
 ````
 
-If you want, I can now:
-
-* Review your **live GitHub repo**
-* Add **assumptions & limitations**
-* Prepare a **submission note for evaluators**
-
-Just tell me 👍
