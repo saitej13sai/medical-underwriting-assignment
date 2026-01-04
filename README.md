@@ -83,11 +83,7 @@ pip install -r requirements.txt
 
 ## How to Run
 
-### Image Input
 
-```bash
-PS C:\Users\sai13\ai_ceo_project\AI_Underwriting\medical-underwriting\medical-underwriting-engine> python .\main.py --input ""C:\Users\sai13\Downloads\drkkreport.jpeg""
-```
 
 ### PDF Input (Relative Path)
 
@@ -96,11 +92,6 @@ PS C:\Users\sai13\ai_ceo_project\AI_Underwriting\medical-underwriting\medical-un
  .\main.py --input "C:\Users\sai13\Downloads\sterling-accuris-pathology-sample-report-unlocked.pdf"  
 ```
 
-### PDF Input (Absolute Windows Path)
-
-```bash
-PS C:\Users\sai13\ai_ceo_project\AI_Underwriting\medical-underwriting\medical-underwriting-engine> python
- .\main.py --input "C:\Users\sai13\Downloads\sterling-accuris-pathology-sample-report-unlocked.pdf"  
 ```
 
 ---
